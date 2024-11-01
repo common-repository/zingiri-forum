@@ -1,0 +1,972 @@
+/* MyBB Admin CP
+ *
+ * Main CSS
+ */
+
+.zingbody, .zingbody td {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	background: #fff;
+	color: #000000;
+	margin: 0;
+}
+
+.zingbody a {
+	color: #035488;
+	text-decoration: none;
+}
+
+.zingbody a:hover {
+	color: #444;
+	text-decoration: underline;
+}
+
+.zingbody .invisible {
+	display: none;
+}
+
+.zingbody #container {
+}
+
+.zingbody #logo h1 {
+	background: #fff url(images/logo.gif) no-repeat top left;
+	height: 82px;
+	margin: 0 0 2px 0;
+	border-bottom: 2px solid #ccc;
+	padding: 3px;
+}
+
+.zingbody #logo {
+ background: #F0F0F0;
+}
+
+.zingbody #welcome {
+	position: relative;
+	float: right;
+	color: #666;
+	height: 20px;
+	font-size: 96%;
+}
+
+.zingbody #welcome .logout {
+	margin-left: 4px;
+	padding: 0 18px 2px 0;
+	background: url(images/icons/logout.gif) no-repeat right;
+}
+
+.zingbody #welcome .forum {
+	margin-left: 4px;
+	padding: 1px 0 2px 20px;
+	background: url(images/icons/world.gif) no-repeat left;
+}
+
+.zingbody #welcome .username {
+	margin-left: 4px;
+	padding: 0 0 2px 18px;
+	background: url(images/icons/user.gif) no-repeat left;
+}
+
+/* Menu */
+
+.zingbody #zingmenu ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-bottom: 5px solid #016DB1;
+	background: #727172;
+}
+
+html>body #zingmenu ul {
+	float: left;
+}
+
+.zingbody #zingmenu li {
+	font-size: 11px;
+	float: left;
+	margin: 0;
+	padding: 0 2px 0 0;
+	list-style: none;
+	background: url(images/menu_sep.gif) repeat-y top right;
+}
+
+.zingbody #zingmenu a {
+	font-weight: bold;
+	float: left;
+	padding: 4px 15px 4px 15px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.zingbody #zingmenu a:hover, .zingbody #zingmenu a.active {
+	color: #fff;
+	background: #016DB1 url(images/menu_active_bg.gif) repeat-x top left;
+}
+
+.zingbody #zingmenu a.active {
+	background: #016DB1 url(images/menu_active_bg.gif) repeat-x top left;
+}
+
+/* Sub Menu */
+
+.zingbody #submenu ul {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 5px 0 5px 0;
+	list-style: none;
+	border-bottom: 1px solid #000;
+	background: #ABC9E5 url(images/submenu_bg.gif) repeat-x top left;
+}
+
+.zingbody #submenu li {
+	font-size: 11px;
+	float: left;
+	margin: 0;
+	padding: 0 0px 0 0;
+	list-style: none;
+}
+
+.zingbody #submenu .sep {
+		border-right: 1px solid #000;
+}
+
+.zingbody #submenu a {
+	float: left;
+	padding: 0px 15px 0px 15px;
+	text-decoration: none;
+	color: #000;
+}
+
+.zingbody #submenu a:hover {
+	text-decoration: underline;
+}
+
+.zingbody #submenu a.active {
+	font-weight: bold;
+}
+
+.zingbody #submenu a.active:hover {
+	text-decoration: none;
+}
+
+.zingbody #page {
+	clear: both;
+	background: #fff;
+}
+
+/* Main Content */
+
+.zingbody #content {
+	padding: 10px 15px;
+	margin: 0;
+	margin-left: 200px;
+	width: auto;
+}
+
+.zingbody #content p {
+	line-height: 150%;
+}
+
+.zingbody #content h2 {
+	font-family: 'Lucida Grande', 'Trebuchet MS', Verdana, Sans-Serif;
+	font-size: 170%;
+	letter-spacing: -1px;
+	font-weight: bold;
+	color: #666;
+	margin: 0 0 5px 0;
+}
+
+.zingbody #content h3 {
+	border-bottom: 1px solid #ccc;
+	font-size: 16px;
+	margin: 10px 0 7px 0;
+}
+
+.zingbody #content h4 {
+	font-size: 14px;
+	margin: 10px 0 -10px 0;
+}
+
+/* Left Menu */
+
+.zingbody #page {
+	background: url(images/sidebar_bg.gif) repeat-y left;
+}
+
+.zingbody #left_menu {
+	width: 200px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+	float: left;
+	font-size: 11px;
+}
+
+.zingbody #left_menu div.left_menu_box {
+	border: 1px solid #ccc;
+	background: #fff;
+	list-style: none;
+	margin: 4px;
+	padding: 5px;
+}
+
+.zingbody #left_menu div.left_menu_box div.title {
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+
+.zingbody #left_menu div.left_menu_box ul.menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.zingbody #left_menu div.left_menu_box ul.menu li a {
+	display: block;
+	padding: 6px 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.zingbody #left_menu div.left_menu_box ul.menu li.active a {
+	font-weight: bold;
+	color: #000;
+}
+
+.zingbody #left_menu div.left_menu_box ul.menu li a:hover {
+	background-color: #efefef;
+	text-decoration: none;
+}
+/* Fix IE. Hide from IE Mac \*/
+/*ebo:check this*/
+* html #left_menu li a, , * html #left_menu li { 
+	height: 1%;
+}
+/* End */
+
+
+/* Tables */
+
+.zingbody .border_wrapper {
+	border: 1px solid #0F5C8E;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 14px;
+}
+/*ebo:check this*/
+* html .border_wrapper {
+	height: 1px;	
+}
+
+.zingbody .border_wrapper div.title {
+	background: #016DB1 url(images/thead_bg.gif) repeat-x top left;
+	color: #fff;
+	padding: 6px 4px;
+	font-size: 100%;
+	text-align: left;
+	font-weight: bold;
+}
+
+.zingbody .border_wrapper div.title a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.zingbody table.general {
+	background: #ccc;
+	width: 100%;
+}
+
+.zingbody table.general td {
+	border-top: 1px solid #fafafa;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #fafafa;
+}
+
+.zingbody table.bottom_cell_border td {
+	border-right: 0;
+	border-left: 0;
+}
+
+
+.zingbody table.general td {
+	background: #f5f5f5;
+	padding: 6px;
+/*	vertical-align: top; */
+}
+
+.zingbody table.general th {
+	background: #ADCBE6;
+	text-align: left;
+	color: #000;
+	padding: 5px;
+	font-size: 96%;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+}
+
+.zingbody table.general th a, table.general th {
+	color: #000;
+	text-decoration: none;
+}
+
+
+.zingbody table.general .alt_row td {
+	background: #f1f1f1;
+}
+/*
+table td.alt_col {
+	background: #f1f1f1;
+}*/
+
+
+
+/* Page Footer */
+.zingbody #footer {
+	clear: both;
+	border-top: 1px solid #ccc;
+	background: #ddd;
+}
+
+.zingbody #footer p {
+	border-top: 1px solid #efefef;
+	padding:5px;
+	margin: 0;
+	font-size: 11px;
+}
+
+.zingbody #footer .generation {
+	float: right;
+}
+/* Popup Menus */
+
+.zingbody .popup_button {
+	color: #000;
+	text-align: right;
+	background: #B3CEE8;
+	border: 1px solid #000;
+	font-weight: bold;
+	padding: 3px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+}
+
+.zingbody a.popup_button:link,
+.zingbody a.popup_button:visited,
+.zingbody a.popup_button:active,
+.zingbody a.popup_button:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.zingbody .popup_menu {
+	background: #ccc;
+	border: 1px solid #000;
+}
+
+.zingbody .popup_menu .popup_item_container {
+	margin: 1px;
+	text-align: left;
+}
+
+.zingbody .popup_menu .popup_item {
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	white-space: nowrap;
+	background: #fff;
+	color: #000;
+}
+
+.zingbody .popup_menu a.popup_item:hover {
+	text-decoration: none;
+	background: #C7DBEE;
+	color: #000;
+}
+
+.zingbody .transparent, .transparent td {
+	background: transparent;
+}
+
+.zingbody .breadcrumb {
+	margin-bottom: 10px;
+	font-size: 96%;
+}
+.zingbody .breadcrumb .active {
+	display: block;
+	background: url(images/nav_bit.gif) no-repeat top left;
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+.zingbody .inline_message {
+	background: #FFF6BF;
+	border-top: 2px solid #FFD324;
+	border-bottom: 2px solid #FFD324;
+	text-align: center;
+	margin: 10px auto;
+	padding: 5px 20px;
+}
+
+.zingbody .notice {
+	background: #EFEFEF;
+	border-top: 2px solid #CCC;
+	border-bottom: 2px solid #CCC;
+	text-align: center;
+	margin: 10px auto;
+	padding: 5px 20px;
+}
+
+.zingbody .templates_intro {
+	background-image: url(images/templates.gif);
+	background-repeat: no-repeat;
+	padding-left: 40px;
+}
+
+.zingbody .intro_description p {
+	margin: 0;
+}
+
+.zingbody table.individual_cell_border {
+	border-style: collapse;
+}
+
+.zingbody table.cell_border_bottom td {
+	border: 1px solid #cc;
+	border-style: collapse;
+	border-spacing: 1px;
+}
+
+/* Forms */
+
+.zingbody form {
+	border: 0;
+	margin: 0;
+}
+
+.zingbody form div.form_container, fieldset {
+	background: #efefef;
+	border: 1px solid #ccc;
+	padding: 2px 7px 5px;
+	margin-bottom: 10px;
+}
+
+.zingbody .form_row {
+	margin: 10px 30px;
+}
+.zingbody legend {
+	font-weight: bold;
+}
+
+.zingbody .form_container label {
+	font-weight: bold;
+}
+
+.zingbody .form_container .description, small {
+	font-size: 11px;
+	color: #444;
+}
+
+.zingbody input.text_input {
+	border: 1px solid #0F5C8E;
+	background: #fff;
+	width: 300px;
+	padding: 3px;
+	font-size: 13px;
+}
+
+.zingbody textarea {
+	border: 1px solid #0F5C8E;
+	background: #fff;
+	padding: 4px;
+	width: 400px;
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+.zingbody textarea[disabled=disabled] {
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 4px;
+	color: #666;
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+
+.zingbody select {
+	border: 1px solid #0F5C8E;
+	background: #fff;
+	padding: 4px;
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+.zingbody textarea:focus, input.text_input:focus, select:focus {
+	border: 1px solid #000;
+}
+
+
+.zingbody input.inline_submit {
+	font-weight:  bold;
+}
+
+.zingbody form p.legend {
+	margin-bottom: 10px;
+}
+
+.zingbody form p.legend em { 
+	color: #C00; font-style: normal;
+}
+
+.zingbody .form_container label em, fieldset label em {
+	font-style: normal;
+	color: #C00;
+}
+
+.zingbody input.submit_button {
+	border: 3px double #0F5C8E;
+	padding: 3px;
+	background: #fff url(images/submit_bg.gif) repeat-x top;
+	color: #0F5C8E;
+	font-weight: bold;
+	margin-right: 3px;
+}
+
+.zingbody .form_button_wrapper {
+	margin-top: 5px;
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #efefef;
+	padding: 3px;
+}
+
+.zingbody .confirm_action {
+	margin: 10px 0;
+	padding: 10px;
+	font-weight: bold;
+  	border: 1px solid #FC6;
+	background: #FFC;
+	color: #C00;
+}
+
+.zingbody .confirm_action p {
+  	margin: 0;
+}
+
+.zingbody input.button_yes {
+	background: #D6ECA6;
+	border: 3px double #8DC93E;
+	padding: 4px 6px;
+	font-weight: bold;
+	margin-right: 3px;
+}
+
+.zingbody input.button_no {
+	background: #ECA6D6;
+	border: 3px double #C93E8D;
+	padding: 4px 6px;
+	font-weight: bold;
+}
+
+.zingbody .label_radio_yes, .label_radio_on, .label_radio_no, .label_radio_off {
+	padding: 4px 6px;
+	margin-right: 5px;
+	margin-top: 5px;
+	display: block;
+	width: 60px;
+	float: left;
+}
+
+.zingbody .label_radio_yes, .label_radio_on {
+	background: #D6ECA6;
+	border: 1px solid #8DC93E;
+}
+
+.zingbody .label_radio_no, .label_radio_off {
+	background: #ECA6D6;
+	border: 1px solid #C93E8D;
+}
+
+.zingbody input.radio_input {
+	vertical-align: middle;
+	margin: 0;
+	margin-right: 9px;
+}
+
+.zingbody #flash_message {
+	margin: 10px 0;
+	padding: 10px 0 10px 24px;
+	font-weight: bold;
+	background: #efefef;
+	border: 1px solid #ccc;
+}
+
+.zingbody #flash_message.error {
+	border: 1px solid #FC6;
+	background: #FFC url('images/icons/error.gif') no-repeat 4px 9px;
+	color: #C00;
+}
+
+.zingbody #flash_message.success {
+	border: #080 1px solid;
+	color: #080;
+	background: #E8FCDC url('images/icons/success.gif') no-repeat 4px 9px;
+}
+
+.zingbody .alert {
+	margin: 10px 0;
+	padding: 5px 10px;
+	border: #FC6 1px solid;
+	background: url('images/icons/warning.gif') no-repeat;
+	background-color: #ffc;
+	color: #C00; 
+	font-style: normal;
+	font-weight: bold;
+	padding-left: 24px;
+	display: block;
+}
+
+
+.zingbody div.error, div.success {
+	margin: 10px 0;
+	padding: 5px 10px;
+}
+
+.zingbody div.error {
+	border: #FC6 1px solid;
+	background: #ffc;
+}
+
+.zingbody div.success {
+	border: #080 1px solid;
+	background: #E8FCDC;
+}
+
+.zingbody div.error p, div.success p {
+	margin: 0;
+	color: #000;
+	font-weight: normal;
+}
+
+.zingbody div.error p em, div.success p em {
+	font-style: normal;
+	font-weight: bold;
+	padding-left: 24px;
+	display: block;
+}
+
+.zingbody div.error p em {
+	color: #C00;
+	background: url('images/icons/error.gif') no-repeat;
+}
+
+.zingbody div.success p em {
+	color: #080;
+	background: url('images/icons/success.gif') no-repeat;
+}
+
+.zingbody div.success ul, div.error.ul {
+	margin-left: 24px;
+}
+
+.zingbody .nav_tabs {
+	margin-bottom: 10px;
+}
+.zingbody .nav_tabs ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	height: 32px;
+	border-bottom: 1px solid #ccc;
+}
+
+.zingbody .nav_tabs li {
+	float: left;
+	padding-right: 5px;
+}
+
+.zingbody .nav_tabs li.right {
+	float: right;
+	padding-left: 5px;
+	padding-right: 0;
+}
+
+.zingbody .nav_tabs li a {
+	float: left;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	display: block;
+	font-family: 'Lucida Grande', 'Trebuchet MS', Verdana, Sans-Serif;
+	font-size: 160%;
+	letter-spacing: -1px;
+	color: #aaa;
+	padding: 3px 8px 4px;
+	background: #f7f7f7;
+	height: 24px;
+}
+
+.zingbody .nav_tabs li a:hover {
+	background: #f1f1f1;
+	text-decoration: none;
+}
+
+	 
+.zingbody .nav_tabs li.active a { 
+    color: #666; 
+	font-weight: bold; 
+	padding-top: 4px; 
+    border-bottom: 0; 
+	background: #efefef; 
+} 
+	 
+.zingbody .nav_tabs .tab_description { 
+	background: #efefef; 
+	padding: 5px 10px; 
+	border: 1px solid #ccc; 
+	border-top: 0; 
+	font-size: 95%; 
+} 
+
+.zingbody * html .nav_tabs .tab_description {
+	margin-left: 3px;	
+}
+.zingbody *.align_center, table.general th.align_center, input.align_center {
+	text-align: center;
+}
+
+.zingbody .float_right {
+	float: right;
+}
+
+.zingbody a img {
+	border: 0;
+}
+
+.zingbody option { 
+	padding-right: 10px;
+}
+
+.zingbody ul.tabs {
+	width: 100%;
+	margin: 10px 0 0;
+	padding: 0;
+	list-style: none;
+	height: 27px;
+}
+
+.zingbody ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.zingbody ul.tabs a {
+	float: left;
+	padding: 6px 10px;
+	text-decoration: none;
+	color: #6e6e6e;
+	border: 0;
+	border-top: 1px solid #bdbdbd;
+	background: #efefef;
+}
+
+.zingbody ul.tabs li.first a {
+	border-left: 1px solid #bdbdbd;
+}
+
+.zingbody ul.tabs li.last a {
+	border-right: 1px solid #bdbdbd;
+}
+
+ul.tabs li a.active,
+ul.tabs li.first a.active,
+.zingbody ul.tabs li.last a.active {
+	background: #035489 repeat-x top left;
+	color: #fff;
+	font-size: 100%;
+	text-align: left;
+	font-weight: bold;
+	border: 1px solid #035489;
+	border-top: 1px solid #023f66;
+}
+
+.zingbody .editor {
+	background: #f1f1f1;
+	border: 1px solid #ccc;
+}
+
+.zingbody .editor_control_bar {
+	background: #fff;
+	border: 1px solid #0f5c8e;
+}
+
+.zingbody .toolbar_normal {
+	background: #f0f0f0;
+	border: 1px solid #f0f0f0;
+}
+
+.zingbody .toolbar_hover {
+	background: #c1d2ee;
+	border: 1px solid #5296f7;
+}
+
+.zingbody .toolbar_clicked {
+	background: #e1F2fe;
+	border: 1px solid #5296f7;
+}
+
+.zingbody .user_avatar {
+    height: 80px;
+    width: 80px;
+    background: #fff;
+    border: 1px solid #ccc;
+    float: left;
+    clear: left;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.zingbody .user_avatar img {
+    vertical-align: middle;
+}
+
+.zingbody .user_details {
+    float: left;
+    margin-left: 5px;
+    line-height: 1.7;
+}
+
+.zingbody .pagination {
+	font-size: 11px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.zingbody .pagination .pages {
+	font-weight: bold;
+}
+
+.zingbody .pagination .pagination_current, .pagination a {
+	padding: 2px 6px;
+	margin-bottom: 3px;
+}
+
+.zingbody .pagination a {
+	border: 1px solid #81A2C4;
+}
+
+.zingbody .pagination .pagination_current {
+	background: #F5F5F5;
+	border: 1px solid #81A2C4;
+	font-weight: bold;
+}
+
+.zingbody .pagination a:hover {
+	background: #F5F5F5;
+	text-decoration: none;
+}
+
+
+.zingbody .view_fields .enabled, .view_fields .disabled {
+	width: 200px;
+	float: left;
+}
+
+.zingbody .view_fields .disabled {
+	margin-left: 20px;
+}
+
+.zingbody .view_fields .fields_title {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.zingbody .view_fields ul, .view_fields li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.zingbody .view_fields ul {
+	overflow: auto; // Scroll fix for Opera
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 180px;
+	margin-top: 4px;
+}
+
+
+.zingbody .view_fields li {
+	-moz-border-radius: 3px;
+	padding: 4px;
+	background: #666;
+	color: #fff;
+	font-size: 11px;
+	margin-bottom: 2px;
+	margin-right: 10px;
+}
+
+/* Auto Complete */
+.zingbody .autocomplete {
+	background: #fff;
+	border: 1px solid #000;
+	color: black;
+}
+
+.zingbody .autocomplete_selected {
+	background: #adcee7;
+	color: #000;
+}
+
+.zingbody input.field50 {
+	width: 50px;
+}
+.zingbody input.field150 {
+	width: 150px;
+}
+
+.zingbody input.field_small {
+	font-size: 13px;
+	padding: 1px;
+}
+
+.zingbody .search_default {
+	text-align: center;
+	color: #aaa;
+}
+
+.zingbody input.image_button {
+	margin-left: 5px;
+	vertical-align: bottom;
+}
+
+.zingbody input.search_button {
+	background: #fff url(images/icons/search.gif) no-repeat;
+	background-position: 4px 7px;
+	border: 0px;
+	padding: 4px;
+	padding-left: 20px;
+	font-size: 15px;
+	font-family: 'Lucida Grande', 'Trebuchet MS', Verdana, Sans-Serif;
+	color: #6F6F6F;
+	font-weight: bold;
+	height: 30px;
+}
+
+/* Templates Differential page */
+.zingbody .differential {
+	background: #FFF;
+	margin: 10px auto;
+	padding: 10px;
+	overflow: scroll;
+	height: 400px;
+	width: 980px;
+	border: 1px solid #ccc;
+}

@@ -1,0 +1,15 @@
+.zingbody th, .zingbody td
+{
+	border: 0px;
+}
+
+.zingbody ul li, .zingbody ol ul li 
+{
+	background-image: none;
+	background-repeat:no-repeat;
+	padding-left:0px;
+}
+
+.ccforum #content {
+	width:100%;
+}
